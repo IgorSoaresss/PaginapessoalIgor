@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.flex{
+  display: flex;
+}
+
+header {
+  padding: 40px 4%;
+  background-color: #3d0000;
+}
+
+header a {
+  color: #a05858;
+  text-decoration: none;
+  font-size: 20px;
+  display: inline-block;
+  transition: 0.2s;
+}
+
+header a:hover {
+  color: white;
+  transform: scale(1.05);
+}
+
+header > .interface {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 0 60px;
+}
+
+header .botao-contato button {
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+header .botao-contato button:hover {
+  box-shadow: 0px 0px 8px #c20000;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #313866;
+  margin: 0px;
+  padding: 0px;
+  background-color:black;
+}
+
+h1 {
+  font-size: 90px;
+  color: #ffffff;
+}
+
+h2{
+  color: white;
+  font-size: 40px;
+}
+
+
+section {
+  display: flex;
+  margin-top: 100px;
+}
+
+.topoindex {
+  padding: 40px 4%;
+}
+
+.topoindex .flex{
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+
+.topoindex h1{
+  color: white;
+}
+
+.topoindex .textoindex p{
+  color: white;
+  padding: 40px 0px;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.arthab{
+  color: white;
+  background-color: #3d0000;
+  margin: 0px 40px;
+  padding: 10px 20px;
+}
+
+.arthab h2{
+  padding: 15px 10px;
+}
+
+.arthab p{
+  margin: 20px;
+}
+
+.arthab ul{
+  margin: 20px;
+}
+
+.divproj{
+  color: white;
+  font-size: 100px;
+  padding: 200px 650px;
+}
+
+.insta{
+  color: white;
+  background-color: #3d0000;
+  margin: 0px 40px;
+  padding: 10px 50px;
+}
+
+.secont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section .botao-contato button {
+  padding: 10px 40px;
+  margin: 50px 160px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+section .botao-contato button:hover {
+  box-shadow: 0px 0px 8px #c20000;
+}
+
+section .pitersm {
+  margin: 20px 100px;
+}
+
+.insta a{
+  text-decoration: none;
+}
